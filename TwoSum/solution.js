@@ -11,6 +11,7 @@ var twoSum = function(nums, target) {
         }
         dict[nums[i].toString()] = i;
     };
+    return [0];
 };
 
 /**

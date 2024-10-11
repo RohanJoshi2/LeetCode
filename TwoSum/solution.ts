@@ -6,6 +6,7 @@ function twoSum(nums: number[], target: number): number[] {
         }
         dict[nums[i].toString()] = i;
     };
+    return [0];
 };
 
 // function twoSum(nums: number[], target: number): number[] {
